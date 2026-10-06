@@ -9,7 +9,8 @@
       margin: 0;
       padding: 16px;
       font-family: Arial, Helvetica, sans-serif;
-      background: #f2f2f2;
+      background: #0d0d0d;
+      color: #f5f0e6;
       display: flex;
       justify-content: center;
     }
@@ -21,10 +22,13 @@
     .credencial {
       width: 100%;
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 16px rgba(212, 175, 55, 0.25);
     }
     h2 {
       margin: 20px 0 10px;
+      color: #d4af37;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
     button {
       display: block;
@@ -37,18 +41,20 @@
       margin-bottom: 12px;
     }
     #estado {
-      background: #9e9e9e;
+      background: #6b6b6b;
       color: #fff;
+      border: 1px solid #d4af37;
     }
     #btnBeneficios {
-      background: #1f5f99;
-      color: #fff;
+      background: linear-gradient(90deg, #b8912f, #e6c55a, #b8912f);
+      color: #111;
+      font-weight: bold;
     }
     #beneficios {
       display: none;
-      background: #fff;
+      background: #1a1a1a;
+      border: 1px solid #d4af37;
       border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
       padding: 8px 16px;
       text-align: left;
     }
@@ -58,7 +64,7 @@
     #beneficios p {
       margin: 10px 0;
       padding-bottom: 10px;
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid #3a3326;
     }
     #beneficios p:last-child {
       border-bottom: none;
@@ -67,7 +73,7 @@
 </head>
 <body>
   <div class="contenedor">
-    <img class="credencial" src="WhatsApp%20Image%202026-10-06%20at%202.55.49%20PM.jpeg" alt="Credencial">
+    <img class="credencial" src="WhatsApp%20Image%202026-10-06%20at%203.37.23%20PM.jpeg" alt="Credencial">
 
     <h2>Status</h2>
     <button id="estado" type="button">Activo</button>
